@@ -6,10 +6,10 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none;">Home</a>
+      <a href="tags.html" style="margin-left: 10px; text-decoration: none;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration: none;">Moby Dick</a>
     </div>
 
     <header>
@@ -25,7 +25,7 @@
     </p>
 
     <p>
-      The tables below don't include all HTML tags, but they do list many of the most imporatnt ones.
+      The tables below don't include all HTML tags, but they do list many of the most important ones.
     </p>
 </div>
 <div>
@@ -40,14 +40,14 @@
         <th>Purpose</th>
       </tr>
       <tr>
-      <td><code>h1</code>&ndash;<code>h6</code></td>
-      <td>headings</td>
-      <td>include a heading (levels 1&ndash;6)</td>
+      <td style="padding: 10px"><code>h1</code>&ndash;<code>h6</code></td>
+      <td style="padding: 10px">headings</td>
+      <td style="padding: 10px">include a heading (levels 1&ndash;6)</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
-        <td>paragraph</td>
-        <td>include a table</td>
+        <td style="padding: 10px"><code>p</code></td>
+        <td style="padding: 10px">paragraph</td>
+        <td style="padding: 10px">include a table</td>
       </tr>
       <tr>
         <td><code>table</code></td>
@@ -125,7 +125,59 @@
           </td>
           <td><code>insert code here</code></td>
         </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>Marks up part of the text</td>
+          <td><code>
+            &lt;span&gt;Call me Ishmael.&lt;span&gt;
+          </code></td>
+          <td><span style="font-style: normal; font-size: 24px; font-weight: bold; color: pink;">Call me Ishmael.</span></td>
+        </tr>
       </table>
+    </div>
+
+    <div>
+      <header>
+        <h2>Document Tags</h2>
+      </header>
+
+        <table>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Purpose</th>
+          </tr>
+          <tr>
+            <td style="padding: 10px"><code>html</code></td>
+            <td style="padding: 10px">HTML Specifier</td>
+            <td style="padding: 10px 50px">Displays a simple HTML document</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px"><code>head</code></td>
+            <td style="padding: 10px">Document Head</td>
+            <td style="padding: 10px 50px">A container for metadata between the html and body tag</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px"><code>title</code></td>
+            <td style="padding: 10px">Document Title</td>
+            <td style="padding: 10px 50px">Defines the title of the document</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px"><code>meta</code></td>
+            <td style="padding: 10px">Document meta</td>
+            <td style="padding: 10px 50px">Defines metadata for HTML document</td>
+          </tr>
+          <tr>
+            <td><code>div</code></td>
+            <td>division</td>
+            <td>Defines a divison/section</td>
+          </tr>
+          <tr>
+
+          </tr>
+        </table>
+
     </div>
   </body>
 </html>
